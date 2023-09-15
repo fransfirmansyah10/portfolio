@@ -21,7 +21,7 @@ document.onclick = function(e){
     {
     hamburger.classList.remove('hamburger-active');
     navMenu.classList.remove('hidden');
-    navMenu.classList.toggle('hidden');
+    navMenu.classList.toggle('hidden')
     }
     }
 
