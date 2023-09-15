@@ -841,16 +841,12 @@ video {
   --tw-gradient-to-position:  ;
 }
 
-.bg-auto {
-  background-size: auto;
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-contain {
   background-size: contain;
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-fixed {
