@@ -841,10 +841,6 @@ video {
   --tw-gradient-to-position:  ;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-auto {
   background-size: auto;
 }
