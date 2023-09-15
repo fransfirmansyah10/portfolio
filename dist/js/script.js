@@ -14,6 +14,17 @@ window.onscroll = function(){
 const hamburger = document.querySelector('#hamburger');
 const navMenu = document.querySelector('#nav-menu');
 
+document.onclick = function(e){
+
+    if(e.target.id !== 'hamburger' && e.target.id !== 'nav-menu')
+    
+    {
+    hamburger.classList.remove('hamburger-active');
+    navMenu.classList.remove('hidden');
+    navMenu.classList.toggle('hidden');
+    }
+    }
+
 hamburger.addEventListener('click', function () {
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
