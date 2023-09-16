@@ -16,14 +16,14 @@ const navMenu = document.querySelector('#nav-menu');
 
 // document.onclick = function(e){
 
-//     if(e.target.id !== 'nav-menu' && e.target.id !== 'hamburger')
+//      if(e.target.id !== 'nav-menu' && e.target.id !== 'hamburger')
     
-//     {
-//     hamburger.classList.remove('hamburger-active');
-//     navMenu.classList.remove('hidden');
-//     navMenu.classList.toggle('hidden')
-//     }
-//     }
+//    {
+//      hamburger.classList.remove('hamburger-active');
+//      navMenu.classList.remove('hidden');
+//      navMenu.classList.toggle('hidden')
+//      }
+//      }
 
 hamburger.addEventListener('click', function () {
     hamburger.classList.toggle('hamburger-active');
@@ -31,8 +31,4 @@ hamburger.addEventListener('click', function () {
 
 });
 
-if (iosVersion >= 7) {
-    $(document).scroll(function() {
-        $('#background').css('background-position', '0px ' + $(document).scrollTop() + 'px');
-    });
-}
+
