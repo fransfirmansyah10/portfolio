@@ -554,6 +554,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -851,6 +855,10 @@ video {
 
 .bg-fixed {
   background-attachment: fixed;
+}
+
+.bg-scroll {
+  background-attachment: scroll;
 }
 
 .bg-clip-text {
