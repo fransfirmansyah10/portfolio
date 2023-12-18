@@ -1199,10 +1199,6 @@ body {
   background-color: #3b82f6;
 }
 
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-
 .logos-slide {
   display: inline-block;
   animation: 12s slide infinite linear;

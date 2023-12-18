@@ -90,11 +90,6 @@ body {
 
   }
   
-
-  
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
-  }
   
   .logos-slide {
     display: inline-block;
