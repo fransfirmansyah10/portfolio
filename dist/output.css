@@ -1028,6 +1028,10 @@ video {
   font-weight: 100;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
