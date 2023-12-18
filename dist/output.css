@@ -867,18 +867,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-blue-300 {
-  --tw-gradient-from: #93c5fd var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(147 197 253 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-blue-100 {
-  --tw-gradient-from: #dbeafe var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(219 234 254 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-black {
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
@@ -889,14 +877,6 @@ video {
 
 .to-yellow-200 {
   --tw-gradient-to: #fef08a var(--tw-gradient-to-position);
-}
-
-.to-blue-500 {
-  --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-fixed {
@@ -1216,26 +1196,7 @@ body {
   background: white;
   position: relative;
   white-space: nowrap;
-}
-
-.logos:before,
-  .logos:after {
-  position: absolute;
-  top: 0;
-  width: 500px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.logos:before {
-  left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-}
-
-.logos:after {
-  right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  background-color: #3b82f6;
 }
 
 .logos:hover .logos-slide {
@@ -1504,10 +1465,6 @@ body {
     background-color: transparent;
   }
 
-  .lg\:bg-cover {
-    background-size: cover;
-  }
-
   .lg\:pl-5 {
     padding-left: 1.25rem;
   }
@@ -1537,6 +1494,11 @@ body {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .lg\:shadow-none {
