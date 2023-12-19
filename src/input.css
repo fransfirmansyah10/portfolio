@@ -93,7 +93,7 @@ body {
   
   .logos-slide {
     display: inline-block;
-    animation: 12s slide infinite linear;
+    animation: 16s slide infinite linear;
   }
   
   .logos-slide h1 {
@@ -101,4 +101,5 @@ body {
     margin: 0 40px;
   }
 
+  
  
