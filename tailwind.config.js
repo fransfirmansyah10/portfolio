@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html','revamp-transaction-detail-padiumkm.html','about.html'],
+  content: ['index.html','revamp-transaction-detail-padiumkm.html','about.html','landing-page-deaxpadi.html'],
   theme: {
     container: {
       center: true,
