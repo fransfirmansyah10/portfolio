@@ -45,6 +45,18 @@ body {
     
 }
 
+.hidden2 {
+
+    opacity: 0;
+    
+    filter: blur (5px);
+    
+    transform: translateY(-100%);
+    
+    transition: all 1s;
+    
+}
+
 .show {
     
     opacity: 1;

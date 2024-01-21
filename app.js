@@ -15,9 +15,14 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden1');
 hiddenElements.forEach((el) => observer.observe (el));
 
+const hiddenElements1 = document.querySelectorAll('.hidden2');
+hiddenElements1.forEach((el) => observer.observe (el));
 
 
   function zoomIn() {
     var gambar = document.getElementById("gambar");
     gambar.classList.toggle("scale-500");
   }
+
+
+  
